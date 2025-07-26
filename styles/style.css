@@ -123,3 +123,43 @@ h4{
     background-color: #fff9f9;
     padding: 15px;
 }
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 150px auto;
+  height: 320px;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 80px;
+}
+.last-h2{
+    font-size: 130px;
+    margin-right: 90px;
+    margin-top: 200px;
+}
+.from{
+    display: flex;
+    justify-content: center;
+}
+.last-class{
+    font-size: 25px;
+}
+input{
+    font-size: 20px;
+}
